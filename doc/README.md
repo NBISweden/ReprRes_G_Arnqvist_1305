@@ -1,17 +1,16 @@
-# <preferred title, probably the manuscript title>
+# The genomic footprint of sexual conflict
 
 This is a collaborative project between the [Göran ArnqvistJ
 group](http://http://arnqvist.org), Animal Ecology, Dept. of Ecology
 and Genetics, Uppsala University and the [NBIS](http://nbis.se)
-long-term support (a.k.a. WABI), performed during 2015-2018 (NBIS LT
+long-term support, performed during 2015-2018 (NBIS LTS
 project name: G_Arnqvist_1305).
 
-As a part of the NBIS reproducible research policy, this repository
-provides the data-files and R-scripts necessary to perform the
+This repository provides the data-files and R-scripts necessary to perform the
 underlying analyses and create tables and plots used in *<manuscript name>*
 (manuscript in prep; link not yet available)
 
-<More specific description of what results in the manuscript are created by the repo, if needed>
+
 
 ## Usage
 
@@ -28,7 +27,7 @@ The content of this repository can be obtained in two ways:
 
 #### Running the scripts
 
-<Brief description on how to use the scripts provided here>
+Documentation is provided in the respecitve script file.
 
 ## Repository content:
 
@@ -41,7 +40,7 @@ This file.
 
 ## Contact
 
-* Janne LehtioGöran Arnqvist group, UU:
+* Göran Arnqvist group, UU:
   * [Ahmed Sayadi](mailto:ahmed.sayadi@ebc.uu.se) 
   * [Göran Arnqvist](mailto:Goran.Arnqvist@ebc.uu.se) 
 
