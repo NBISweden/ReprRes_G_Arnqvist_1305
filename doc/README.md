@@ -1,4 +1,4 @@
-# The genomic footprint of sexual conflict -- supplementary data and scripts
+# The genomic footprint of sexual conflict — supplementary data and scripts
 
 This is a collaborative project between the [Göran Arnqvist
 group](http://arnqvist.org/), Animal Ecology, Dept. of Ecology and
