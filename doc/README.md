@@ -29,12 +29,12 @@ The content of this repository can be obtained in two ways:
 ## Repository content and comments on running the scripts:
 
 - **Data:**
-
+  
   In this folder you will find several data files.
 
 - **README.md**
 
-This file.
+  This file.
 
 
 1. **PopoolationPart1.sh, PopoolationPart2.sh:**
