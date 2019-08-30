@@ -37,6 +37,7 @@ The content of this repository can be obtained in two ways:
   This file.
 
 - *Scripts (in order of execution)*
+
 1. **PopoolationPart1.sh, PopoolationPart2.sh:**
   In order to get the output result file from Popoolation you to run both scripts, several modules need to be installed (`Python, bowtie2, smatools, bcftools, bwa, java, picard`).
   The Raw files data need to be downloaded: (*Genome assembly file, raw sequencing data*).
