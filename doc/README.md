@@ -36,7 +36,7 @@ The content of this repository can be obtained in two ways:
 
   This file.
 
-- *Scripts*
+- *Scripts (in order of execution)*
   1. **PopoolationPart1.sh, PopoolationPart2.sh:**
     In order to get the output result file from Popoolation you to run both scripts, several modules need to be installed (`Python, bowtie2, smatools, bcftools, bwa, java, picard`).
     The Raw files data need to be downloaded: (*Genome assembly file, raw sequencing data*).
@@ -44,7 +44,6 @@ The content of this repository can be obtained in two ways:
     All Pool-seq raw sequencing data have been deposited at the NCBI sequence read archive, under the accession number PRJNA503561.
     Please modify the script according to your folder organisation.
     Several folders need to be created before running the script (place your shell script in the same directory):
-
       + *Create necessary folders*
         `mkdir ref # place genome assembly file in this folder`
         `mkdir re ads # place raw reads in this folder`
@@ -54,7 +53,7 @@ The content of this repository can be obtained in two ways:
       + *NB! modify the first 2 lines in the bash script PoPoolationPart1.sh to include the reference genome and the raw reads, before running the scripts*
         `bash PoPoolationPart1.sh `
         `bash PoPoolationPart2.sh`
-        
+
     After running the script `PopoolationPart1.sh`, as an output you will get the `Bra.Ca.Yem.idf.mpileup` file.
     `PoPoolationPart2.sh` uses the mpileup file to produce the `sync` file, the `cmh` file and the `fst` file.
     Please refer to popoolation manual to get familiar with all the output files.
