@@ -54,7 +54,6 @@ The content of this repository can be obtained in two ways:
       + *NB! modify the first 2 lines in the bash script PoPoolationPart1.sh to include the reference genome and the raw reads, before running the scripts*
         `bash PoPoolationPart1.sh `
         `bash PoPoolationPart2.sh`
-    
     After running the script `PopoolationPart1.sh`, as an output you will get the `Bra.Ca.Yem.idf.mpileup` file.
     `PoPoolationPart2.sh` uses the mpileup file to produce the `sync` file, the `cmh` file and the `fst` file.
     Please refer to popoolation manual to get familiar with all the output files.
