@@ -29,13 +29,16 @@ The content of this repository can be obtained in two ways:
 ## Repository content and comments on running the scripts:
 
 - **Data:**
-In this folder you will find several data files.
+
+  In this folder you will find several data files.
 
 - **README.md**
+
 This file.
 
 
 1. **PopoolationPart1.sh, PopoolationPart2.sh:**
+
   In order to get the output result file from Popoolation you to run both scripts, several modules need to be installed (`Python, bowtie2, smatools, bcftools, bwa, java, picard`).
   The Raw files data need to be downloaded: (*Genome assembly file, raw sequencing data*).
   The annotated genome assembly, along with sequence data, is available from the European Nucleotide Archive (ENA) under accession PRJEB30475.
@@ -58,33 +61,38 @@ This file.
   Please refer to popoolation manual to get familiar with all the output files.
 
 2. **gff.to.SNPs.pl:**
-This script is used to extract for each list of CDSs the corresponding  list of SNPs.
+
+  This script is used to extract for each list of CDSs the corresponding  list of SNPs.
 
   `perl gff.to.SNPs.pl`
 
 3. ** SNPs.to.cmh.allCDSs.pl:**
+
   To get the cmh value of each SNP in the CDS regions, you can run this script.
 
   `perl SNPs.to.cmh.allCDSs.pl`
 
 4. ** SNPs.to.cmh.pl:**
+
   To get the cmh value of each SNP in the CDS regions, for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax). you can run this script.
 
   `perl SNPs.to.cmh.pl`
 
 6. ** Polymorphic.CDSs.pl:**
+
   To get the list of SNPs present in the 3 pop in both samples at a proportion of at least 30/70.
 
   `perl Polymorphic.CDSs.pl > Polymorphic.SNPs.CDSs.txt`
 
-7. ** SNPsLogFC.pl:** to get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
-you need to modify the first line of the script to select the input file.
+7. ** SNPsLogFC.pl:**
+  To get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
+  You need to modify the first line of the script to select the input file.
 
   `perl SNPsLogFC.pl > output.txt`
 
 8. ** Go.terms.enrichment.R:**
-  Go term enrichment calculatin is made using this script.
 
+  Go term enrichment calculatin is made using this script.
   please modify the `read.table` line to specify the input file.
 
 ## Contact
