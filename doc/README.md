@@ -100,7 +100,7 @@ The content of this repository can be obtained in two ways:
 8. **Go.terms.enrichment.R:**
 
     Go term enrichment calculation is made using this script.
-    please modify the `read.table` line to specify the input file.
+    Please modify the `read.table` line to specify the input file.
 
 ## Contact
 * Göran Arnqvist group, UU:
