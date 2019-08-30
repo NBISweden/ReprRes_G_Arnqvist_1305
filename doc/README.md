@@ -7,7 +7,7 @@ long-term support (a.k.a. WABI), performed during 2015-2018 (NBIS LT
 project name: G_Arnqvist_1305).
 
 As a part of the NBIS reproducible research policy, this repository
-provides the data-files and R-scripts necessary to perform the
+provides the data-files and scripts necessary to perform the
 underlying analyses and create tables and plots used in Sayadi et
 al. The genomic footprint of sexual conflict (manuscript in prep; link
 not yet available)
