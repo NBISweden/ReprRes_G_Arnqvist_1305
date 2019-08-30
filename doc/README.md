@@ -63,38 +63,44 @@ The content of this repository can be obtained in two ways:
 
 2. **gff.to.SNPs.pl:**
 
-  This script is used to extract for each list of CDSs the corresponding  list of SNPs.
+    This script is used to extract for each list of CDSs the corresponding  list of SNPs.
+    ```
+    perl gff.to.SNPs.pl
+    ```
 
-  `perl gff.to.SNPs.pl`
+3. **SNPs.to.cmh.allCDSs.pl:**
 
-3. ** SNPs.to.cmh.allCDSs.pl:**
+    To get the cmh value of each SNP in the CDS regions, you can run this script.
+    ```
+    perl SNPs.to.cmh.allCDSs.pl
+    ```
 
-  To get the cmh value of each SNP in the CDS regions, you can run this script.
+4. **SNPs.to.cmh.pl:**
 
-  `perl SNPs.to.cmh.allCDSs.pl`
+    To get the cmh value of each SNP in the CDS regions, for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax). you can run this script.
+    ```
+    perl SNPs.to.cmh.pl
+    ```
 
-4. ** SNPs.to.cmh.pl:**
+6. **Polymorphic.CDSs.pl:**
 
-  To get the cmh value of each SNP in the CDS regions, for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax). you can run this script.
+    To get the list of SNPs present in the 3 pop in both samples at a proportion of at least 30/70.
+    ```
+    perl Polymorphic.CDSs.pl > Polymorphic.SNPs.CDSs.txt
+    ```
 
-  `perl SNPs.to.cmh.pl`
+7. **SNPsLogFC.pl:**
 
-6. ** Polymorphic.CDSs.pl:**
+    To get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
+    You need to modify the first line of the script to select the input file.
+    ```
+    perl SNPsLogFC.pl > output.txt
+    ```
 
-  To get the list of SNPs present in the 3 pop in both samples at a proportion of at least 30/70.
+8. **Go.terms.enrichment.R:**
 
-  `perl Polymorphic.CDSs.pl > Polymorphic.SNPs.CDSs.txt`
-
-7. ** SNPsLogFC.pl:**
-  To get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
-  You need to modify the first line of the script to select the input file.
-
-  `perl SNPsLogFC.pl > output.txt`
-
-8. ** Go.terms.enrichment.R:**
-
-  Go term enrichment calculatin is made using this script.
-  please modify the `read.table` line to specify the input file.
+    Go term enrichment calculation is made using this script.
+    please modify the `read.table` line to specify the input file.
 
 ## Contact
 * Göran Arnqvist group, UU:
